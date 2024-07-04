@@ -40,30 +40,30 @@ model - https://github.com/KindXiaoming/pykan?tab=readme-ov-file.
 ---------------------------
 1. **'MNIST MLP' folder:** Trained using 3 layer MLP with 10 nodes in between.
 
-- **Accuracy: 93.18%**   
-- **Training Time: 10 mins**
+- Accuracy: 93.18%  
+- Training Time: 10 mins
 
 2. **'pykan train' folder:** Trained using the .train API. Losses aren't very good, but it appears the 
 API uses RMSE only which could be bad for classification tasks like MNIST
 
-- **1.17e+01 | test loss: 1.36e+01 | reg: 9.52e+04 : 100%|█| 20/20 [1:08:04<00:00, 204.22s/I]**
+- 1.17e+01 | test loss: 1.36e+01 | reg: 9.52e+04 : 100%|█| 20/20 [1:08:04<00:00, 204.22s/I]
 
 
-2. **'MNIST KAN 5' folder:** Trained using a custom train function with a 3 layer KAN and 5 hidden nodes.
+3. **'MNIST KAN 5' folder:** Trained using a custom train function with a 3 layer KAN and 5 hidden nodes.
 Tested on the entire test data. **Contains the trained model file.**
 
 
-- **Accuracy: 87.42%**
-- **Train Time: around 4 hrs**
+- Accuracy: 87.42%
+- Train Time: around 4 hrs
  
 
-3. **'MNIST KAN 10' folder:** Trained using a custom train function with 3 layer KAN but 10 hidden nodes 
+4. **'MNIST KAN 10' folder:** Trained using a custom train function with 3 layer KAN but 10 hidden nodes 
 like the MLP case. Tested on 75% of the test data since RAM was crashing with 100% data. **Contains the 
 trained model file.**
 
 
-- **Accuracy: 93.01%**
-- **Train Time: around 7 hrs**
+- Accuracy: 93.01%
+- Train Time: around 7 hrs
 
 ---------------------------
 
